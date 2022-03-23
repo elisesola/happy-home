@@ -284,6 +284,7 @@ div.tarif {
   #encart {
     float: right;
     width: 25%;
+    margin-left: 1em;
   }
 
   #mainArticle img {
