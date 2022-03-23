@@ -1,7 +1,7 @@
-var pleurtuit = new google.maps.LatLng(48.600687, -2.057252);
 let map;
 let myCity;
 function initMap() {
+    let pleurtuit = new google.maps.LatLng(48.600687, -2.057252);
     let mapProp = { center: pleurtuit, zoom: 10, mapTypeId: google.maps.MapTypeId.ROADMAP };
     map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
     myCity = new google.maps.Circle({
