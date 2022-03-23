@@ -229,7 +229,7 @@ div.tarif {
 
 @media (min-width: 700px) {
   body {
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas:
       "left header right"
       "left menu right"
@@ -258,7 +258,6 @@ div.tarif {
   }
 
   #pageHeader img {
-    width: 100%;
     height: 143px;
   }
 
