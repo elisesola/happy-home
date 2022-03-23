@@ -184,6 +184,8 @@ legend.center {
 
 #googleMap {
   height: 150px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 #encart {
@@ -238,6 +240,9 @@ div.tarif {
       "footer footer footer";
   }
 
+  #googleMap {
+    height: 390px;
+  }
   #menu ul {
     display: flex;
     justify-content: space-evenly;
