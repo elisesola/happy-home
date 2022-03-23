@@ -1,4 +1,2 @@
-#HAppy Home v2
-
-let's work on a new version for this website with everything better and state of the art 
-
+# HAppy Home website
+website sources for www.hapyy-home.fr
