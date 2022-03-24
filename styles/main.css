@@ -336,6 +336,11 @@ div.tarif {
     margin-top: 0 !important;
   }
 
+  #mainArticle .break-after {
+    break-after: column;
+    margin-bottom: 20px;
+  }
+
   #googleMap {
     height: 390px;
   }
