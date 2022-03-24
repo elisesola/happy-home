@@ -343,5 +343,6 @@ div.tarif {
 
   #googleMap {
     height: 390px;
+    break-before: column;
   }
 }
