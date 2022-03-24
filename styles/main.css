@@ -135,6 +135,10 @@ legend.center {
   font-size: 19px;
 }
 
+#mainArticle .info {
+  padding-left: 0.5em;
+}
+
 .info a {
   color: black;
 }
@@ -243,6 +247,7 @@ div.tarif {
   #googleMap {
     height: 390px;
   }
+
   #menu ul {
     display: flex;
     justify-content: space-evenly;
@@ -277,7 +282,7 @@ div.tarif {
   #mainArticle .break-after {
     break-after: column;
   }
-  
+
   #mainArticle p {
     line-height: 2.4em;
   }
