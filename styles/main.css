@@ -244,10 +244,6 @@ div.tarif {
       "footer footer footer";
   }
 
-  #googleMap {
-    height: 390px;
-  }
-
   #menu ul {
     display: flex;
     justify-content: space-evenly;
@@ -339,8 +335,11 @@ div.tarif {
     object-fit: contain;
   }
 
-
   div.choix {
     margin-top: 0 !important;
+  }
+
+  #googleMap {
+    height: 390px;
   }
 }
