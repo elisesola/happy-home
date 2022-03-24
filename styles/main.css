@@ -274,6 +274,10 @@ div.tarif {
     column-count: 2;
   }
 
+  #mainArticle .break-after {
+    break-after: column;
+  }
+  
   #mainArticle p {
     line-height: 2.4em;
   }
