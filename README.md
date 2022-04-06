@@ -1,2 +1,2 @@
 # HAppy Home website
-website sources for www.hapyy-home.fr
+website sources for <www.happy-home.fr>
