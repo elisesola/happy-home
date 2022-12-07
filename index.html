@@ -13,111 +13,138 @@
   <link rel="manifest" href="/site.webmanifest">
   <script src="./js/map.js" async></script>
 
-  <title>HAppy Home - Accueil</title>
+  <title>Éducateur Canin comportementaliste - Happy'Home</title>
   <meta name="author" content="Elise Sola - HAppy Home">
   <meta name="description"
-    content="Site de la société Elise Sola - HAppy Home, éducateur canin et comportementaliste dans le secteur de Dinard, Saint-Malo et Dinan">
+        content="Site de la société Elise Sola - HAppy Home, éducateur canin et comportementaliste dans le secteur de Dinard, Saint-Malo et Dinan">
 </head>
 
 <body>
-  <header id="pageHeader">
-    <picture>
-      <source media="(min-width: 700px)" srcset="images/logo-700.png">
-      <source media="(min-width: 500px)" srcset="images/logo-500.png">
-      <img src="images/logo-min.png" alt="Website logo">
-    </picture>
-  </header>
-  <nav id="menu" aria-label="menu">
-    <label for="hamburger">&#9776;</label>
-    <input type="checkbox" id="hamburger" />
-    <span id="hamburger_selected"><a href="index.html">Accueil</a>
+<header id="pageHeader">
+  <picture>
+    <source media="(min-width: 700px)" srcset="images/logo-700.png">
+    <source media="(min-width: 500px)" srcset="images/logo-500.png">
+    <img src="images/logo-min.png" alt="Website logo">
+  </picture>
+</header>
+<nav id="menu" aria-label="menu">
+  <label for="hamburger">&#9776;</label>
+  <input type="checkbox" id="hamburger"/>
+  <span id="hamburger_selected"><a href="index.html">Accueil</a>
       <a class="tel" href="tel:+33658493412"> <i class="fa fa-phone" aria-hidden="true"> </i>&nbsp;&nbsp;06 58 49 34 12</a>
     </span>
-    <div id="menu_items">
-      <ul>
-        <li class="selected"><a href="index.html">Accueil</a></li>
-        <li><a href="education-et-dressage.html">Education et Dressage </a></li>
-        <li><a href="comportementaliste-animalier.html">Comportementaliste animalier</a></li>
-        <li><a href="prestations-et-tarifs.html">Prestations et Tarifs</a></li>
-        <li><a href="qui-suis-je.html">Qui suis-je</a></li>
-        <li><a href="photos.html">Photos</a></li>
+  <div id="menu_items">
+    <ul>
+      <li class="selected"><a href="index.html">Accueil</a></li>
+      <li><a href="education-et-dressage.html">Education et Dressage </a></li>
+      <li><a href="comportementaliste-animalier.html">Comportementaliste animalier</a></li>
+      <li><a href="prestations-et-tarifs.html">Prestations et Tarifs</a></li>
+      <li><a href="qui-suis-je.html">Qui suis-je</a></li>
+      <li><a href="photos.html">Photos</a></li>
+    </ul>
+  </div>
+</nav>
+<div id="contact"><a class="tel" href="tel:+33658493412"><i class="fa fa-phone"
+                                                            aria-hidden="true"> </i> 06 58 49 34 12</a>
+  <i class="fa-solid fa-location-dot" aria-hidden="true"> </i> Dinard, Saint-Malo, Dinan
+</div>
+<article id="mainArticle">
+  <div class="adapt-columns">
+    <div>
+      Mme Elise Sola titulaire d’un diplôme d’éducateur canin et comportementaliste vous propose:
+      <ul class="info">
+        <li><a href="comportementaliste-animalier.html">Des conseils personnalisés pour choisir
+          votre compagnon idéal ou pour
+          acquérir les bonnes méthodes dès son arrivée (+d’infos)</a></li>
+        <li><a href="education-et-dressage.html">Des séances spécifiques pour les chiots (+
+          d’infos)</a></li>
+        <li><a href="education-et-dressage.html">Des cours d’éducation pour les chiens adultes (+
+          d’infos)</a></li>
+        <li><a href="education-et-dressage.html">Des interventions sur les chiens difficiles,
+          agressifs, etc.. (+d’infos)</a></li>
+        <li><a href="education-et-dressage.html">Des séances de socialisation et des balades canines
+          (+d’infos)</a></li>
+        <li><a href="education-et-dressage.html">Des méthodes fondées sur le langage du chien
+          (+d’infos)</a></li>
       </ul>
     </div>
-  </nav>
-  <div id="contact"><a class="tel" href="tel:+33658493412"><i class="fa fa-phone" aria-hidden="true"> </i> 06 58 49 34 12</a>
-    <i class="fa-solid fa-location-dot" aria-hidden="true"> </i> Dinard, Saint-Malo, Dinan
-  </div>
-  <article id="mainArticle">
-    <div class="adapt-columns">
-      <div>
-        <ul class="info">
-          <li><a href="comportementaliste-animalier.html">Comportementaliste animalier</a></li>
-          <li><a href="education-et-dressage.html">Educateur canin certifié</a></li>
-        </ul>
-      </div>
-      <div>
-        <img src="images/accueil.jpg" alt="Chiens en cours d'éducation" class="full-size">
-        <legend class="center">
-          Séances dispensées par Elise Sola
-        </legend>
-      </div>
-      <div class="break-after">
-        <h2>Prenons contact !</h2>
-        <a href="tel:+33658493412"><span class="contact">
+    <div>
+      <img src="images/accueil.jpg" alt="Chiens en cours d'éducation" class="full-size">
+      <legend class="center">
+        Séances dispensées par Elise Sola
+      </legend>
+    </div>
+    <div>
+      <p>
+        Un programme personnalisé qui se déroule à votre domicile et sur un terrain clos basé à
+        Pleurtuit. Un accompagnement spécifique en extérieur (centre-ville ou campagne) peut être
+        mis en place selon vos besoins. Interventions dans un rayon de 30 km autour de Dinard/Saint
+        Malo.
+      </p>
+    </div>
+    <div id="googleMap">&nbsp;</div>
+    <div class="break-after">
+      <h2>Prenons contact !</h2>
+      <a href="tel:+33658493412"><span class="contact">
             <i class="fa fa-phone" aria-hidden="true" style="text-size-adjust: 30px;"> </i> 06 58 49 34 12
           </span></a>
-        <a href="mailto:elisesola@orange.fr"><span class="contact">
+      <a href="mailto:elisesola@orange.fr"><span class="contact">
             <i class="fa fa-envelope" aria-hidden="true"> </i> elisesola@orange.fr</span>
-        </a>
-        <a href="https://www.facebook.com/ha.comportementaliste/"><span class="contact">
-          <i class="fa-brands fa-facebook" aria-hidden="true"></i> HAppy’Home sur Facebook</span></a>
-        <a href="https://goo.gl/maps/gixKExSR7UTCJUYeA" target="_blank"><span class="contact">
+      </a>
+      <a href="https://www.facebook.com/ha.comportementaliste/"><span class="contact">
+          <i class="fa-brands fa-facebook"
+             aria-hidden="true"></i> HAppy’Home sur Facebook</span></a>
+      <a href="https://goo.gl/maps/gixKExSR7UTCJUYeA" target="_blank"><span class="contact">
           <i class="fa-solid fa-location-dot" aria-hidden="true"> </i> La Haute
             Galais, 35730
-            Pleurtuit.<br />
+            Pleurtuit.<br/>
             <em>Sur rendez-vous uniquement.</em>
           </span>
-        </a>
-      </div>
-
-      <div id="googleMap">&nbsp;</div>
-
-      <div class="accueil-lien">
-        Interventions sur les chiens agressifs,
-        phobiques, malpropres, destructeurs,
-        bruyants, agités. <a href="comportementaliste-animalier.html">lire plus →</a>
-      </div>
-      <div class="accueil-lien">
-        Education ou rééducation du chiot et du chien adulte. <a href="education-et-dressage.html">lire plus →</a>
-      </div>
-      <div class="accueil-lien">
-        Balades collectives et séances de socialisation et sociabilisation. <a
-          href="education-et-dressage.html#balades-canines">lire plus →</a>
-      </div>
-      <div class="accueil-lien">
-        Un programme personnalisé qui se déroule à votre domicile et sur terrain clos basé à Pleurtuit. <a
-          href="education-et-dressage.html#structure">lire plus →</a>
-      </div>
-      <div class="accueil-lien">
-        Des méthodes douces et efficaces qui s’appuient sur le langage canin. <a
-          href="education-et-dressage.html#methodes">lire plus →</a>
-      </div>
-      <div>
-        <h2>Horaires</h2>
-        <p class="info">
-          Ouvert du lundi au jeudi de 9h00 à 19h30. <br />
-          Le samedi de 9h00 à 16h00.<br />
-          <strong>Fermé le dimanche et les jours fériés.</strong><br />
-          <strong>Accueil sur rendez-vous uniquement.</strong>
-        </p>
-      </div>
+      </a>
     </div>
-  </article>
-  <nav id="leftSide" aria-label="leftSide"></nav>
-  <nav id="rightSide" aria-label="rightSide"></nav>
-  <footer id="pageFooter"></footer>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV5aAA6MTHtNw2FEg-s5Z3cpmjCHaGWXM&callback=initMap" async>
-  </script>
+
+
+
+    <div class="accueil-lien">
+      Interventions sur les chiens agressifs,
+      phobiques, malpropres, destructeurs,
+      bruyants, agités. <a href="comportementaliste-animalier.html">lire plus →</a>
+    </div>
+    <div class="accueil-lien">
+      Education ou rééducation du chiot et du chien adulte. <a href="education-et-dressage.html">lire
+      plus →</a>
+    </div>
+    <div class="accueil-lien">
+      Balades collectives et séances de socialisation et sociabilisation. <a
+        href="education-et-dressage.html#balades-canines">lire plus →</a>
+    </div>
+    <div class="accueil-lien">
+      Un programme personnalisé qui se déroule à votre domicile et sur terrain clos basé à
+      Pleurtuit. <a
+        href="education-et-dressage.html#structure">lire plus →</a>
+    </div>
+    <div class="accueil-lien">
+      Des méthodes douces et efficaces qui s’appuient sur le langage canin. <a
+        href="education-et-dressage.html#methodes">lire plus →</a>
+    </div>
+    <div>
+      <h2>Horaires</h2>
+      <p class="info">
+        Ouvert du lundi au jeudi de 9h00 à 19h30. <br/>
+        Le samedi de 9h00 à 16h00.<br/>
+        <strong>Fermé le dimanche et les jours fériés.</strong><br/>
+        <strong>Accueil sur rendez-vous uniquement.</strong>
+      </p>
+    </div>
+  </div>
+</article>
+<nav id="leftSide" aria-label="leftSide"></nav>
+<nav id="rightSide" aria-label="rightSide"></nav>
+<footer id="pageFooter"></footer>
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDV5aAA6MTHtNw2FEg-s5Z3cpmjCHaGWXM&callback=initMap"
+    async>
+</script>
 </body>
 
 </html>
